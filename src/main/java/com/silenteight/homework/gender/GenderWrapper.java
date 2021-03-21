@@ -1,4 +1,4 @@
-package com.silenteight.homework.v1;
+package com.silenteight.homework.gender;
 
 public class GenderWrapper {
     private String gender;

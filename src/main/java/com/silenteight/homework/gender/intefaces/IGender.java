@@ -1,4 +1,4 @@
-package com.silenteight.homework.v1.intefaces;
+package com.silenteight.homework.gender.intefaces;
 
 public interface IGender<T> {
     Boolean isMale(T value);
