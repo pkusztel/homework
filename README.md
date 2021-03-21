@@ -14,13 +14,13 @@ See also: [docker](https://hub.docker.com/r/kusztelson/docker-homework)
     RETURNS {"gender":"Inconclusive"}
 
 ## v2 Examples
-    GET http://localhost:8080/v1?name=maria+maria+jan
+    GET http://localhost:8080/v2?name=maria+maria+jan
     RETURNS {"gender":"Female"}
 
-    GET http://localhost:8080/v1?name=jan+jan+maria
+    GET http://localhost:8080/v2?name=jan+jan+maria
     RETURNS {"gender":"Male"}
     
-    http://localhost:8080/v1?name=jan+maria
+    http://localhost:8080/v2?name=jan+maria
     RETURNS {"gender":"Inconclusive"}
 
 ## Useful resources
