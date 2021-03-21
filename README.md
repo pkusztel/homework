@@ -75,4 +75,4 @@ Application should expose two HTTP endpoints: one for using the gender guessing 
 - [x] Code should be provided in a form of a link to a git repository.
 - [x] Don’t load token lists into memory, as it could be very huge.
 - [x] Make algorithm (not to be confused with the whole app) versionable.
-- [ ] Make it easily runnable through docker.
+- [x] Make it easily runnable through docker.
