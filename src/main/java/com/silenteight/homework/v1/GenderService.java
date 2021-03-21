@@ -12,10 +12,15 @@ public class GenderService {
     private final String FEMALE = "Female";
     private final String INCONCLUSIVE = "Inconclusive";
 
+    private final String TOKEN = " ";
+    private final int FIRST = 0;
+
     @Autowired
     GenderRepository repo;
 
     public String decideGender(String name) {
+        name = name.split(TOKEN)[FIRST];
+
         if(repo.isFemale(name)) {
             return FEMALE;
         }

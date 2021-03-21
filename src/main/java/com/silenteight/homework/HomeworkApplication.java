@@ -1,14 +1,12 @@
 package com.silenteight.homework;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.LineIterator;
+import org.apache.commons.io.IOUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 import org.springframework.core.io.ClassPathResource;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -22,17 +20,13 @@ public class HomeworkApplication {
 	@Bean
 	@Scope("prototype")
 	Iterator<String> maleFileIterator() throws IOException {
-		File f = new ClassPathResource("m.txt").getFile();
-		LineIterator lineIterator = FileUtils.lineIterator(f, "UTF-8");
-		return lineIterator;
+		return IOUtils.lineIterator(new ClassPathResource("m.txt").getInputStream(), "UTF-8");
 	}
 
 	@Bean
 	@Scope("prototype")
 	Iterator<String> femaleFileIterator() throws IOException {
-		File f = new ClassPathResource("f.txt").getFile();
-		LineIterator lineIterator = FileUtils.lineIterator(f, "UTF-8");
-		return lineIterator;
+		return IOUtils.lineIterator(new ClassPathResource("f.txt").getInputStream(), "UTF-8");
 	}
 
 
