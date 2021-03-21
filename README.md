@@ -1,4 +1,15 @@
-# Silent Eight homework
+# Silent Eight homework - Gender Endpoint
+Scroll to the bottom for requirements.
+
+## v1 Examples
+    GET http://localhost:8080/v1?name=maria
+    RETURNS {"gender":"Female"}
+
+    GET http://localhost:8080/v1?name=jan
+    RETURNS {"gender":"Male"}
+    
+    http://localhost:8080/v1?name=123
+    RETURNS {"gender":"Inconclusive"}
 
 ## Business Requirements
 Create a simple Java application, that can detect gender by given name. Guess gender detection algorithm is fairly simple and is based on a list of female and male tokens, that should be packaged within JAR. Those lists should be in the form of two flat files, where each line contains a separate token. For each name, the app responds either with gender or “INCONCLUSIVE”. The gender detection algorithm should be implemented in two variants: 
