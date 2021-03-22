@@ -23,6 +23,10 @@ See also: [docker](https://hub.docker.com/r/kusztelson/docker-homework)
     http://localhost:8080/v2?name=jan+maria
     RETURNS {"gender":"Inconclusive"}
 
+## Tokens
+    GET http://localhost:8080/females
+    GET http://localhost:8080/males
+
 ## Useful resources
 [Name Tokens](https://dane.gov.pl/pl/dataset/1501,lista-imion-wystepujacych-w-rejestrze-pesel)
 

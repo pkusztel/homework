@@ -1,9 +1,8 @@
 package com.silenteight.homework.gender;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 public class GenderController {
@@ -21,5 +20,15 @@ public class GenderController {
     @RequestMapping("/" + VERSION_LATEST)
     public GenderWrapper guessGenderTokenized(@RequestParam String name) {
         return new GenderWrapper(svc.decideGenderTokenized(name));
+    }
+
+    @RequestMapping(value = "/males", produces = "text/plain;charset=UTF-8")
+    public byte[] getMales() {
+        return svc.getMales();
+    }
+
+    @RequestMapping(value = "/females", produces = "text/plain;charset=UTF-8")
+    public byte[] getFemales() {
+        return svc.getFemales();
     }
 }

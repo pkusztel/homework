@@ -1,18 +1,18 @@
 {
-	"id": "6fa51cf7-d610-4d4b-af2c-9ed20d7d85eb",
+	"id": "25ad8f9f-7bba-439a-9137-53d920ed069d",
 	"name": "Gender API",
-	"timestamp": "2021-03-21T14:16:04.904Z",
+	"timestamp": "2021-03-22T20:32:42.904Z",
 	"collection_id": "61d3165c-2908-458a-9377-f44963ac1339",
 	"folder_id": 0,
 	"environment_id": "0",
-	"totalPass": 18,
+	"totalPass": 20,
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "b72cdeb9-ed45-481c-9b99-de630537b510",
 			"name": "maria",
 			"url": "http://localhost:8080/v1?name=maria",
-			"time": 13,
+			"time": 21,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -27,7 +27,7 @@
 				}
 			},
 			"times": [
-				13
+				21
 			],
 			"allTests": [
 				{
@@ -39,7 +39,7 @@
 			"id": "82d6b7c4-317a-426e-84bb-a096f976c505",
 			"name": "jan",
 			"url": "http://localhost:8080/v1?name=jan",
-			"time": 24,
+			"time": 26,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -54,7 +54,7 @@
 				}
 			},
 			"times": [
-				24
+				26
 			],
 			"allTests": [
 				{
@@ -66,7 +66,7 @@
 			"id": "28c2fc90-6776-4dcd-8320-cf770e211510",
 			"name": "123",
 			"url": "http://localhost:8080/v1?name=123",
-			"time": 20,
+			"time": 26,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -81,7 +81,7 @@
 				}
 			},
 			"times": [
-				20
+				26
 			],
 			"allTests": [
 				{
@@ -93,7 +93,7 @@
 			"id": "e38ed03a-f8b6-4e95-8556-d88f5c3519fe",
 			"name": "jan maria",
 			"url": "http://localhost:8080/v1?name=jan+maria",
-			"time": 26,
+			"time": 35,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -108,7 +108,7 @@
 				}
 			},
 			"times": [
-				26
+				35
 			],
 			"allTests": [
 				{
@@ -120,7 +120,7 @@
 			"id": "b735d849-b475-4df2-837d-06df7ee1d30b",
 			"name": "maria jan",
 			"url": "http://localhost:8080/v1?name=maria+jan",
-			"time": 9,
+			"time": 15,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -135,7 +135,7 @@
 				}
 			},
 			"times": [
-				9
+				15
 			],
 			"allTests": [
 				{
@@ -147,7 +147,7 @@
 			"id": "56ca3b1e-51cd-4d02-ae1e-2784503b4eeb",
 			"name": "long",
 			"url": "http://localhost:8080/v1?name=qwertyuioppoiuytrewqQWERTYUIOPPOIUYTREWQ",
-			"time": 27,
+			"time": 23,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -162,7 +162,7 @@
 				}
 			},
 			"times": [
-				27
+				23
 			],
 			"allTests": [
 				{
@@ -174,7 +174,7 @@
 			"id": "dfe0ce3b-eeb7-467b-bcde-e7bc9ea9cff4",
 			"name": "empty",
 			"url": "http://localhost:8080/v1?name=",
-			"time": 28,
+			"time": 19,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -189,7 +189,7 @@
 				}
 			},
 			"times": [
-				28
+				19
 			],
 			"allTests": [
 				{
@@ -201,7 +201,7 @@
 			"id": "abff9daf-57fa-4500-a398-bd10264fc4f2",
 			"name": "many names",
 			"url": "http://localhost:8080/v1?name=jan+jan+jan+jan+jan+jan+jan+jan+jan+jan+jan+jan+jan+jan+jan+jan",
-			"time": 21,
+			"time": 23,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -216,7 +216,7 @@
 				}
 			},
 			"times": [
-				21
+				23
 			],
 			"allTests": [
 				{
@@ -228,7 +228,7 @@
 			"id": "09b8fa65-6da6-4ff7-a977-5baeff0170d7",
 			"name": "maria",
 			"url": "http://localhost:8080/v2?name=maria",
-			"time": 9,
+			"time": 13,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -243,7 +243,7 @@
 				}
 			},
 			"times": [
-				9
+				13
 			],
 			"allTests": [
 				{
@@ -255,7 +255,7 @@
 			"id": "371c1483-14b7-4a54-bc8b-5cceab94756e",
 			"name": "jan",
 			"url": "http://localhost:8080/v2?name=jan",
-			"time": 23,
+			"time": 24,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -270,7 +270,7 @@
 				}
 			},
 			"times": [
-				23
+				24
 			],
 			"allTests": [
 				{
@@ -282,7 +282,7 @@
 			"id": "a2e3e64d-1a80-4e74-be45-d4b984e7f850",
 			"name": "123",
 			"url": "http://localhost:8080/v2?name=123",
-			"time": 21,
+			"time": 23,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -297,7 +297,7 @@
 				}
 			},
 			"times": [
-				21
+				23
 			],
 			"allTests": [
 				{
@@ -336,7 +336,7 @@
 			"id": "958bb1b3-edb9-4646-a5a3-18fcc0ed15ac",
 			"name": "maria jan",
 			"url": "http://localhost:8080/v2?name=maria+jan",
-			"time": 23,
+			"time": 25,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -351,7 +351,7 @@
 				}
 			},
 			"times": [
-				23
+				25
 			],
 			"allTests": [
 				{
@@ -363,7 +363,7 @@
 			"id": "478d4116-986e-4606-9561-d3d375105f10",
 			"name": "long",
 			"url": "http://localhost:8080/v1?name=qwertyuioppoiuytrewqQWERTYUIOPPOIUYTREWQ",
-			"time": 21,
+			"time": 15,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -378,7 +378,7 @@
 				}
 			},
 			"times": [
-				21
+				15
 			],
 			"allTests": [
 				{
@@ -390,7 +390,7 @@
 			"id": "20e07ef3-555b-4b01-a28b-050530ec827c",
 			"name": "empty",
 			"url": "http://localhost:8080/v2?name=",
-			"time": 39,
+			"time": 27,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -405,7 +405,7 @@
 				}
 			},
 			"times": [
-				39
+				27
 			],
 			"allTests": [
 				{
@@ -417,7 +417,7 @@
 			"id": "f39490ee-9165-4a67-a13c-a2e9db842c85",
 			"name": "jan jan maria",
 			"url": "http://localhost:8080/v2?name=jan+jan+maria",
-			"time": 23,
+			"time": 60,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -432,7 +432,7 @@
 				}
 			},
 			"times": [
-				23
+				60
 			],
 			"allTests": [
 				{
@@ -444,7 +444,7 @@
 			"id": "0c3d8da1-f4ef-4626-bc65-06b4aa57412a",
 			"name": "maria maria jan",
 			"url": "http://localhost:8080/v2?name=maria+maria+jan",
-			"time": 21,
+			"time": 31,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -459,7 +459,7 @@
 				}
 			},
 			"times": [
-				21
+				31
 			],
 			"allTests": [
 				{
@@ -471,7 +471,7 @@
 			"id": "40e74ba1-820d-41d4-8447-3ecc07640268",
 			"name": "login",
 			"url": "http://localhost:8080/login",
-			"time": 6,
+			"time": 11,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -486,17 +486,71 @@
 				}
 			},
 			"times": [
-				6
+				11
 			],
 			"allTests": [
 				{
 					"Login endpoint works": true
 				}
 			]
+		},
+		{
+			"id": "9420cbfc-13c6-4f60-a157-a65d14b7c747",
+			"name": "males",
+			"url": "http://localhost:8080/males",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Male tokens": true
+			},
+			"testPassFailCounts": {
+				"Male tokens": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Male tokens": true
+				}
+			]
+		},
+		{
+			"id": "467f2907-37fd-48e4-8f13-f66f1f53027f",
+			"name": "females",
+			"url": "http://localhost:8080/females",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Female tokens": true
+			},
+			"testPassFailCounts": {
+				"Female tokens": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Female tokens": true
+				}
+			]
 		}
 	],
 	"count": 1,
-	"totalTime": 375,
+	"totalTime": 485,
 	"collection": {
 		"requests": [
 			{
@@ -569,6 +623,14 @@
 			},
 			{
 				"id": "40e74ba1-820d-41d4-8447-3ecc07640268",
+				"method": "GET"
+			},
+			{
+				"id": "9420cbfc-13c6-4f60-a157-a65d14b7c747",
+				"method": "GET"
+			},
+			{
+				"id": "467f2907-37fd-48e4-8f13-f66f1f53027f",
 				"method": "GET"
 			}
 		]

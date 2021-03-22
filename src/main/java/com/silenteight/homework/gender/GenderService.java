@@ -25,6 +25,14 @@ public class GenderService {
         return getGender(getDecision(names));
     }
 
+    public byte[] getMales() {
+        return repo.getMaleTokens();
+    }
+
+    public byte[] getFemales() {
+        return repo.getFemaleTokens();
+    }
+
     private String getGender(int decision) {
         if (decision > 0) {
             return FEMALE;
